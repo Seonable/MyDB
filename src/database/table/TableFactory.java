@@ -1,4 +1,4 @@
-package database;
+package database.table;
 
 public class TableFactory {
 

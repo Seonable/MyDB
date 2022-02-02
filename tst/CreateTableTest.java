@@ -1,8 +1,6 @@
-import database.Table;
-import database.TableFactory;
+import database.table.Table;
+import database.table.TableFactory;
 import org.junit.jupiter.api.Test;
-
-import java.io.IOException;
 
 public class CreateTableTest {
 
