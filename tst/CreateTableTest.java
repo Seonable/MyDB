@@ -12,10 +12,10 @@ public class CreateTableTest {
         System.out.println(people.toString());
     }
 
-    @Test
-    public void testCreateTableByFile() throws IOException {
-        Table people = TableFactory.load("people", ".");
-        System.out.println(people.toString());
-    }
+//    @Test
+//    public void testCreateTableByFile() throws IOException {
+//        Table people = TableFactory.load("people", ".");
+//        System.out.println(people.toString());
+//    }
 
 }
