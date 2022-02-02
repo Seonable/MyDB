@@ -1,7 +1,8 @@
 package database;
 
 public class TableFactory {
+
     public static Table createTable(String tableName, String[] columns) {
-        return null;
+        return new ConcreteTable(tableName, columns);
     }
 }
